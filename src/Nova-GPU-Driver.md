@@ -11,7 +11,7 @@ series and newer.
 
 Available communication channels are:
 
-- The mailing list: nouveau@lists.freedesktop.org
+- The mailing list: nova-gpu@lists.linux.dev
 - IRC: #nouveau on OFTC
 - [Zulip Chat](https://rust-for-linux.zulipchat.com/#narrow/channel/509436-Nova)
 
