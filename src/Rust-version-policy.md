@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-The kernel documents the [minimal requirements](https://docs.kernel.org/process/changes.html) to compile it. Since v6.11, the kernel supports a minimum version of Rust. The initial minimum was Rust 1.78.0, and the next one will be Rust 1.85.0 (expected in Linux v7.1)[^stable-kernels], following Debian 13 (Trixie)'s Rust toolchain version — please see ["Minimum upgrade policy"](Rust-version-policy.md#minimum-upgrade-policy) below for details.
+The kernel documents the [minimal requirements](https://docs.kernel.org/process/changes.html) to compile it. Since v6.11, the kernel supports a minimum version of Rust. The initial minimum was Rust 1.78.0, and the current one is Rust 1.85.0 since Linux v7.1[^stable-kernels], following Debian 13 (Trixie)'s Rust toolchain version — please see ["Minimum upgrade policy"](Rust-version-policy.md#minimum-upgrade-policy) below for details.
 
 For the moment, we cannot guarantee newer Rust versions will always work due to the [unstable features](Unstable-features.md) in use[^rust-is-stable]. In practice, so far, it has worked with every version released since the initial minimum. Nevertheless, removing the need for the unstable features is a priority of the project.
 
@@ -38,4 +38,4 @@ Please see the [Quick Start guide](https://docs.kernel.org/rust/quick-start.html
 
 Since early 2026, our current policy is to follow Debian Stable's Rust version as the minimum supported version.
 
-For instance, Debian 13 (Trixie)'s Rust version is 1.85.0 at the time of writing. Thus, some months after Debian's release (to give time for developers to upgrade), it will become the Rust minimum (expected in Linux v7.1).
+For instance, Debian 13 (Trixie)'s Rust version is 1.85.0 at the time of writing. Thus, some months after Debian's release (to give time for developers to upgrade), it became the Rust minimum in Linux v7.1.
