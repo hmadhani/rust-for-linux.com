@@ -26,7 +26,7 @@ The Rust versions currently supported should already be enough for kernel develo
   - Gentoo Linux.
   - Nix.
   - openSUSE Slowroll and openSUSE Tumbleweed.
-  - Ubuntu 25.10 and 26.04 LTS. In addition, 24.04 LTS using versioned packages.
+  - Ubuntu 26.04 LTS. In addition, 24.04 LTS using versioned packages.
 
 In addition, we support the toolchains distributed by Rust, installed via [`rustup`](https://rust-lang.github.io/rustup/) or the [standalone installers](https://forge.rust-lang.org/infra/other-installation-methods.html#standalone-installers).
 
